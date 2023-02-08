@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Tangerine'; 
+    src: url('./Tangerine-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --main-tone: #fceb91;
+    --tab-tone: #7b6f29;
+    --font-color: #463f17;
+    --font-stack: Palatino, URW Palladio L, serif; 
+}
+
+* {
+    border: 0px; 
+    margin: 0px; 
+    padding: 0px;
+    background-color: var(--main-tone);
+    color: var(--font-color);
+    /*border: 1px solid red;*/
+}
+
+.content {
+    height: 100px;
+    width: 200px;
+}
+
+.tab {
+    background-color: var(--main-tone);
+    display: flex;
+    height: 250px;
+    margin: auto; 
+}
+
+.restaurant-name {
+    font-family: 'Tangerine'; 
+    font-size: 250px;
+    text-align: center;
+    margin-top: 10px;
+    flex:1;
+}
+
+.tag {
+    margin: 50px;
+
+    text-align: center;
+    font-style: italic; 
+    font-weight: bolder; 
+    font-size: 50px;
+
+    font-family: 'Tangerine'; 
+}
+
+.statement {
+    margin: 50px 0px;
+    width: 750px;
+    font-size: 50px;
+    font-family: var(--font-stack);
+}
+.home {
+    margin: auto;
+    width: 500px;
+}
+
+.chai-image {
+    border-radius: 500px;
+    width: 500px;
+    margin-top: 50px;
+    opacity: 0.7; 
+}
